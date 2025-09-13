@@ -1,5 +1,5 @@
-import controller from './controller';
+import ogController from './og-controller';
 
 export default {
-  controller,
+  ogController,
 };

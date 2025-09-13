@@ -1,5 +1,5 @@
-import service from './service';
+import ogService from './og-service';
 
 export default {
-  service,
+  ogService,
 };
