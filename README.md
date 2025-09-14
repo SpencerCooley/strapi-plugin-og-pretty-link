@@ -162,3 +162,5 @@ If you don't need a dynamic zone, you can add the field directly to any content 
 ```
 
 After defining your schemas, restart your Strapi server. The "OG Link" field will now be available in your content editor.
+
+![Screen Shot](screen-shot.png)
