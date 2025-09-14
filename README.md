@@ -2,7 +2,10 @@
 
 A custom field for Strapi that allows content editors to fetch Open Graph data from a URL and save it as structured JSON. This enables you to easily create beautiful, data-rich preview cards in your frontend application.
 
-![Preview of the OG Pretty Link custom field in the Strapi admin panel](https://raw.githubusercontent.com/spencer-cooley/strapi-plugin-og-pretty-link/main/og-pretty-link-demo.gif)
+![Preview of the OG Pretty Link custom field in the Strapi admin panel](https://github.com/SpencerCooley/strapi-plugin-og-pretty-link/raw/master/screen-shot.png)
+
+
+![Screen Shot](screen-shot.png)
 
 ## Features
 
@@ -163,4 +166,4 @@ If you don't need a dynamic zone, you can add the field directly to any content 
 
 After defining your schemas, restart your Strapi server. The "OG Link" field will now be available in your content editor.
 
-![Screen Shot](screen-shot.png)
+
