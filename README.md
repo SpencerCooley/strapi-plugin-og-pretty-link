@@ -5,8 +5,6 @@ A custom field for Strapi that allows content editors to fetch Open Graph data f
 ![Preview of the OG Pretty Link custom field in the Strapi admin panel](https://github.com/SpencerCooley/strapi-plugin-og-pretty-link/raw/master/screen-shot.png)
 
 
-![Screen Shot](screen-shot.png)
-
 ## Features
 
 - **Easy to Use:** Simply paste a URL and click "Fetch".
