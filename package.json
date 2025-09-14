@@ -1,6 +1,12 @@
 {
-  "version": "0.0.0",
-  "keywords": [],
+  "version": "1.0.0",
+  "keywords": [
+    "strapi",
+    "plugin",
+    "custom-field",
+    "open-graph",
+    "og-link"
+  ],
   "type": "commonjs",
   "exports": {
     "./package.json": "./package.json",
@@ -20,7 +26,9 @@
     }
   },
   "files": [
-    "dist"
+    "dist",
+    "strapi-admin.js",
+    "strapi-server.js"
   ],
   "scripts": {
     "build": "strapi-plugin build",
@@ -31,9 +39,9 @@
     "test:ts:back": "run -T tsc -p server/tsconfig.json"
   },
   "dependencies": {
-    "@strapi/design-system": "^2.0.0-rc.29",
-    "@strapi/icons": "^2.0.0-rc.29",
-    "react-intl": "^7.1.11",
+    "@strapi/design-system": "^2.0.0-rc.23",
+    "@strapi/icons": "^2.0.0-rc.23",
+    "react-intl": "^7.1.10",
     "got-scraping": "^4.0.4",
     "metascraper": "^5.45.22",
     "metascraper-description": "^5.45.22",
@@ -44,8 +52,9 @@
     "metascraper-url": "^5.45.22"
   },
   "devDependencies": {
-    "@strapi/strapi": "^5.23.4",
+    "@strapi/strapi": "^5.12.5",
     "@strapi/sdk-plugin": "^5.3.2",
+    "@strapi/typescript-utils": "^5.12.5",
     "prettier": "^3.6.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -53,11 +62,10 @@
     "styled-components": "^6.1.19",
     "@types/react": "^19.1.13",
     "@types/react-dom": "^19.1.9",
-    "@strapi/typescript-utils": "^5.23.4",
     "typescript": "^5.9.2"
   },
   "peerDependencies": {
-    "@strapi/strapi": "^5.23.4",
+    "@strapi/strapi": "^5.12.5",
     "@strapi/sdk-plugin": "^5.3.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -70,7 +78,7 @@
     "displayName": "Open Graph Pretty Link",
     "description": "A custom field plugin for the strapi block bulider that takes a link and saves it's open graph metadata so you can style a pretty content card on your frontend. "
   },
-  "name": "og-pretty-link",
+  "name": "@spencercooley/strapi-plugin-og-pretty-link",
   "description": "A custom field plugin for the strapi block bulider that takes a link and saves it's open graph metadata so you can style a pretty content card on your frontend. ",
   "license": "MIT",
   "author": "Spencer Cooley <contact@spencercooley.com>"

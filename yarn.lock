@@ -2356,7 +2356,7 @@
     semver "7.5.4"
     umzug "3.8.1"
 
-"@strapi/design-system@2.0.0-rc.29", "@strapi/design-system@^2.0.0-rc.29":
+"@strapi/design-system@2.0.0-rc.29", "@strapi/design-system@^2.0.0-rc.23":
   version "2.0.0-rc.29"
   resolved "https://registry.yarnpkg.com/@strapi/design-system/-/design-system-2.0.0-rc.29.tgz#17669645e678f16fdb6334e9bd5c4ef6637a162e"
   integrity sha512-Up8wGVdo1mvTK/F/u7qEgHn298rRaitBI+hn0RgtU90CynLO+Lo+b2mo7aGY+ZRk6hYp7xkXBW9fgS+DrnDNZA==
@@ -2434,7 +2434,7 @@
     yup "0.32.9"
     zod "3.25.67"
 
-"@strapi/icons@2.0.0-rc.29", "@strapi/icons@^2.0.0-rc.29":
+"@strapi/icons@2.0.0-rc.29", "@strapi/icons@^2.0.0-rc.23":
   version "2.0.0-rc.29"
   resolved "https://registry.yarnpkg.com/@strapi/icons/-/icons-2.0.0-rc.29.tgz#393d7dab864609198893f26f0b2ef39e0387ede6"
   integrity sha512-VFmvS41vYq6qgRShIMlZZPkr6DteINYya67Ghxtd5b+agWziKSpV6W1yMyFLJwSEXEyPxhvaVHw/xG4BUfpYNg==
@@ -2549,7 +2549,7 @@
     typescript "5.4.4"
     yup "0.32.9"
 
-"@strapi/strapi@^5.23.4":
+"@strapi/strapi@^5.12.5":
   version "5.23.4"
   resolved "https://registry.yarnpkg.com/@strapi/strapi/-/strapi-5.23.4.tgz#8359bbd88bf6cb4574c1e1f35368335f5cd95eb7"
   integrity sha512-lTgUnCi3zfrsqMoIKOVrYibUd2TcPajt9nqBizDmj3fKQeuCdgRbQrvNqa3Kv7j5DngwXKF7AX257IMcQFhjeQ==
@@ -2641,7 +2641,7 @@
     typedoc-plugin-markdown "3.17.1"
     zod "3.25.67"
 
-"@strapi/typescript-utils@5.23.4", "@strapi/typescript-utils@^5.23.4":
+"@strapi/typescript-utils@5.23.4", "@strapi/typescript-utils@^5.12.5":
   version "5.23.4"
   resolved "https://registry.yarnpkg.com/@strapi/typescript-utils/-/typescript-utils-5.23.4.tgz#2154e4b9b7c3e3dae5152e4d17115e6d83233b1f"
   integrity sha512-t+l1sedEmk8knAjpIKMGxWKoEzqB7Fp48IVncHvkb5wZNA/RZ4QmZoPMfj1klDATx7E32EM2WjVRHgGYXDeL8g==
@@ -8959,7 +8959,7 @@ react-intl@6.6.2:
     intl-messageformat "10.5.11"
     tslib "^2.4.0"
 
-react-intl@^7.1.11:
+react-intl@^7.1.10:
   version "7.1.11"
   resolved "https://registry.yarnpkg.com/react-intl/-/react-intl-7.1.11.tgz#6155602c46621ad9b67dd31750d00908e1e0b516"
   integrity sha512-tnVoRCWvW5Ie2ikYSdPF7z3+880yCe/9xPmitFeRPw3RYDcCfR4m8ZYa4MBq19W4adt9Z+PQA4FaMBCJ7E+HCQ==
